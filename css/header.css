@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,li {
+  list-style: none;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header {
+  background: #222;
+  color: #fff;
+  padding: 10px;
+}
+.header .apple>li {
+  float: right;
+  padding: 10px 40px;
+}
+.header .apple>li:first-child {
+  float: left;
+  padding: 10px 30px;
+  margin-top: -5px;
+}
+.header .apple>li:hover {
+  color: yellow;
+}
+
+
+/*声明font-family*/
+@font-face {font-family: "iconfont";
+  src: url('../font/iconfont.eot?t=1497884792367'); /* IE9*/
+  src: url('../font/iconfont.eot?t=1497884792367#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/iconfont.woff?t=1497884792367') format('woff'), /* chrome, firefox */
+  url('../font/iconfont.ttf?t=1497884792367') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../font/iconfont.svg?t=1497884792367#iconfont') format('svg'); /* iOS 4.1- */
+}
+/*使用font-family*/
+.icon {
+  font-family:"iconfont" !important;
+  font-style: normal;
+  font-size: 30px;
+}
+.icon-apple::before {
+  content: "\e67a";
+}
