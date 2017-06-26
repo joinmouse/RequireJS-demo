@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>模块化</title>
+  <link rel="stylesheet" href="css/header.css" type="text/css">
+  <link rel="stylesheet" href="css/carousel.css" type="text/css">
+  <link rel="stylesheet" href="css/new.css" type="text/css">
+  <link rel="stylesheet" href="css/product.css" type="text/css">
+  <link rel="stylesheet" href="css/contact.css" type="text/css">
+  <link rel="stylesheet" href="css/about.css" type="text/css">
+  <script src="./require.js" data-main="main.js"></script>
+</head>
+
+<body>
+  <div class="header">  
+    <ul class="apple clearfix">
+      <li><i class="icon icon-apple"></i></li>
+      <li>Mac</li>
+      <li>iPad</li>
+      <li>iPhone</li>
+      <li>Watch</li>
+    </ul>
+  </div>
+
+  <div class="carousel">
+    <ul class="img-ct clearfix">
+      <li data-index=0 class='active'><img src="image/1.png" alt=""></li>
+      <li data-index=1><img src="image/2.png" alt=""></li>
+      <li data-index=2><img src="image/3.png" alt=""></li>
+      <li data-index=3><img src="image/4.png" alt=""></li>
+    </ul>
+    <a href="#" class="btn btn-pre">&lt;</a>
+    <a href="#" class="btn btn-next">&gt;</a>
+    <ul class="cricl clearfix">
+      <li class='active'></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+
+  <div class="new">
+    <h2>New Product</h2>
+    <ul class="clearfix">
+      <li><img src="image/new1.png" alt=""></li>
+      <li><img src="image/new2.png" alt=""></li>
+      <li><img src="image/new3.png" alt=""></li>
+    </ul>
+  </div>
+
+  <div class="product">
+    <h2>PRODUCT</h2>
+    <p>apple、iPad、MacBook and more...</p>
+    <ul class="clearfix">
+      <li>
+        <img src="image/product1.png" alt="">
+        
+        <div class="container"><span class="icon1 icon-iPhone"></span></div>
+        
+        <p>Apple iPhone 7 Plus</p>
+        <p>参考价格:<span>￥6488.00</span></p>
+      </li>
+      <li>
+        <img src="image/product2.png" alt="">
+        
+        <div class="container"><span class="icon1 icon-iPhone"></span></div>
+
+        <p>Apple iPad 平板电脑</p>
+        <p>参考价格:<span>￥2588.00</span></p>
+      </li>
+      <li>
+        <img src="image/product3.png" alt="">
+
+        <div class="container"><span class="icon1 icon-iPhone"></span></div>
+
+        <p>Apple MacBook Air</p>
+        <p>参考价格:<span>￥6588.00</span></p>
+      </li>
+    </ul>
+  </div>
+
+<section class="about">
+<div class="container">
+  <div class="intro_text">
+    <h1>ABOUT</h1>
+
+    <h3>工作室创立，里程碑，品牌故事</h3>
+  </div>
+  <ul class="time-line">
+    <li>
+      <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/about/1.jpg"/>
+
+      <div class="summary">
+        <h4>2016~2017</h4>
+        <h4>Our Humble Beginnings</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorem eligendi facilis impedit incidunt
+          inventore ipsa itaque libero molestiae nam nemo nihil.</p>
+      </div>
+    </li>
+    <li>
+      <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/about/2.jpg"/>
+
+      <div class="summary">
+        <h4>2016~2017</h4>
+        <h4>Our Humble Beginnings</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorem eligendi facilis impedit incidunt
+          inventore ipsa itaque libero molestiae nam nemo nihil.</p>
+      </div>
+    </li>
+    <li>
+      <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/about/3.jpg"/>
+
+      <div class="summary">
+        <h4>2016~2017</h4>
+        <h4>Our Humble Beginnings</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorem eligendi facilis impedit incidunt
+          inventore ipsa itaque libero molestiae nam nemo nihil.</p>
+      </div>
+    </li>
+    <li>
+      <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/about/4.jpg"/>
+
+      <div class="summary">
+        <h4>2016~2017</h4>
+        <h4>Our Humble Beginnings</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorem eligendi facilis impedit incidunt
+          inventore ipsa itaque libero molestiae nam nemo nihil.</p>
+      </div>
+    </li>
+    <li>
+      <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/about/1.jpg"/>
+      <!--<div class="circle">Be Part <br/>Of Our <br/> Story</div>-->
+    </li>
+  </ul>
+</div>
+</section>
+
+  <form class="contact-form">
+    <div class="intro_text">
+      <h1>CONTACT US</h1>
+      <h3>More Suggest...</h3>
+    </div>
+    <ul class="clearfix">
+      <li class="user-info">
+        <input type="text" name="username" placeholder="You Name" />
+        <input type="text" name="email" placeholder="You Email" />
+        <input type="text" name="phone" placeholder="You Phone Number" />
+      </li>
+      <li class="message">
+        <textarea name="message" rows="10" cols="55" placeholder="欢迎留言"></textarea>
+      </li>
+    </ul>
+    <input type="button" value="提交留言">
+  </form>
+
+  <div class="back-top">
+    <span>back to top</span>
+  </div>
+  
+</body>
+</html>
